@@ -1,5 +1,6 @@
 # Exercise 2160
 
+
 class Solution(object):
     def minimumSum(self, num):
         """

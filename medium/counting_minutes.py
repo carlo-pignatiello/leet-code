@@ -1,7 +1,8 @@
 from datetime import datetime
 
+
 def counting_minutes(s: str) -> int:
-    splitted_time = s.split('-')
+    splitted_time = s.split("-")
     start, end = splitted_time[0], splitted_time[1]
     parsed_start = parse_time(start)
     parsed_end = parse_time(end)
@@ -10,6 +11,7 @@ def counting_minutes(s: str) -> int:
     if s < e:
         return (e - s).seconds // 60
     return 24 * 60 - (s - e).seconds // 60
+
 
 def parse_time(s: str):
     if s[-2:] == "pm":

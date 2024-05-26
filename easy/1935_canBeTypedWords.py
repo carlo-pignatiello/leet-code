@@ -1,5 +1,6 @@
 # Exercise 1935
 
+
 class Solution(object):
     def canBeTypedWords(self, text, brokenLetters):
         """
@@ -14,9 +15,9 @@ class Solution(object):
             if len(set(brokenLetters).intersection(set(list(i)))):
                 counter -= 1
         return counter
-        
+
         # slow version
-        
+
         # counter = len(text_splitted)
         # for i in text_splitted:
         #     for j in brokenLetters:
@@ -24,7 +25,8 @@ class Solution(object):
         #             counter -= 1
         #             break
         # return counter
-                    
+
+
 if __name__ == "__main__":
     # text = "hello world"
     # brokenLetters = "ad"

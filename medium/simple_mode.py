@@ -10,5 +10,6 @@ def simple_mode(arr: list) -> int:
         return -1
     return max(hs, key=hs.get)
 
+
 print(simple_mode([5, 5, 2, 2, 1]))
 print(simple_mode([3, 4, 1, 6, 10]))

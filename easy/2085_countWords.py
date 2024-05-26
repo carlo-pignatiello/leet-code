@@ -16,7 +16,7 @@ class Solution(object):
                 d[i] = -1
             else:
                 d[i] = 0
-        d = {k:v for k, v in d.items() if v == 0}
+        d = {k: v for k, v in d.items() if v == 0}
         return set(d.keys())
 
 

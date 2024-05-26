@@ -12,5 +12,6 @@ def swap(s: str) -> str:
         new_s = new_s[:v] + k + new_s[v:]
     return new_s
 
+
 print(swap("Hello -5LOL6"))
 print(swap("1el2o -5L3L6"))

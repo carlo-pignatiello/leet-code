@@ -10,11 +10,12 @@ class Solution(object):
             if i not in word:
                 counter -= 1
         return counter
-    
+
+
 if __name__ == "__main__":
-    patterns = ["a","abc","bc","d"]
+    patterns = ["a", "abc", "bc", "d"]
     word = "abc"
-    patterns = ["a","b","c"]
+    patterns = ["a", "b", "c"]
     word = "aaaaabbbbb"
     s = Solution()
     h = s.numOfStrings(patterns, word)

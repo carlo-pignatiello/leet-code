@@ -16,7 +16,6 @@ class Solution(object):
                 answer.append(str(i))
         return answer
 
-     
 
 if __name__ == "__main__":
     n = 3

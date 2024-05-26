@@ -4,6 +4,7 @@ def array_addition(arr: list) -> bool:
     s = sum(arr)
     return False if check_sum(arr, largest - s) else True
 
+
 def check_sum(arr: list, target: int) -> bool:
     if target == 0:
         return True
@@ -12,5 +13,6 @@ def check_sum(arr: list, target: int) -> bool:
     current = arr[0]
     remainig = arr[1:]
     return check_sum(remainig, target) or check_sum(remainig, target - current)
+
 
 print(array_addition([5, 7, 16, 1, 2]))
